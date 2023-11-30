@@ -4,3 +4,8 @@ test
 .github
 .vscode
 docs
+playground
+eslint.config.js
+tsup.config.ts
+pnpm-lock.yaml
+tsconfig.json
