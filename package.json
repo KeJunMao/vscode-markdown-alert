@@ -1,0 +1,67 @@
+{
+  "publisher": "kejun",
+  "name": "markdown-alert",
+  "displayName": "Markdown Alert",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@8.11.0",
+  "description": "Adds alert blockquote support to VS Code's built-in markdown preview",
+  "author": "KeJun <kejun1997@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kejunmao/vscode-markdown-alert#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kejunmao/vscode-markdown-alert"
+  },
+  "bugs": {
+    "url": "https://github.com/kejunmao/vscode-markdown-alert/issues"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./dist/index.js",
+  "icon": "res/logo.png",
+  "files": [
+    "dist",
+    "markdown-alert.css"
+  ],
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "activationEvents": [],
+  "contributes": {
+    "markdown.markdownItPlugins": true,
+    "markdown.previewStyles": [
+      "./markdown-alert.css"
+    ]
+  },
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "dev": "pnpm build --watch",
+    "lint": "eslint .",
+    "vscode:prepublish": "pnpm build",
+    "publish": "vsce publish --no-dependencies",
+    "pack": "vsce package --no-dependencies",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "release": "bumpp"
+  },
+  "dependencies": {
+    "@mdit/plugin-alert": "^0.7.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.1.1",
+    "@types/markdown-it": "^13.0.7",
+    "@types/node": "^20.10.1",
+    "@types/vscode": "^1.77.0",
+    "@vscode/vsce": "^2.22.0",
+    "@vue/reactivity": "^3.3.9",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.54.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.4",
+    "vitest": "^0.34.6"
+  }
+}
