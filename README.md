@@ -5,6 +5,8 @@ VS Code Markdown Alert
 Adds alert blockquote support to VS Code's built-in markdown preview
 </p>
 
+![preview](https://raw.githubusercontent.com/kejunmao/vscode-markdown-alert/main/docs/preview.png)
+
 > [!NOTE]
 > Highlights information that users should take into account, even when skimming.
 
