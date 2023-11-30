@@ -2,7 +2,6 @@
   "publisher": "kejun",
   "name": "markdown-alert",
   "displayName": "Markdown Alert",
-  "type": "module",
   "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@8.11.0",
