@@ -24,5 +24,6 @@ Adds alert blockquote support to VS Code's built-in markdown preview
 
 ## Credit
 
-- https://github.com/orgs/community/discussions/16925
+- [GitHub style alerts](https://github.com/orgs/community/discussions/16925)
 - [@mdit/plugin-alert](https://github.com/mdit-plugins/mdit-plugins/blob/main/packages/alert/)
+- [antfu/markdown-it-github-alerts](https://github.com/antfu/markdown-it-github-alerts)
