@@ -2,7 +2,7 @@ import { defineConfig } from 'tsup'
 
 export default defineConfig({
   entry: {
-    index: 'src/index.ts',
+    'index': 'src/index.ts',
     'web/index': 'src/index.ts',
   },
   splitting: false,
@@ -12,6 +12,6 @@ export default defineConfig({
     'vscode',
   ],
   loader: {
-    '.css': 'text'
+    '.css': 'text',
   },
 })
