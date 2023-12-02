@@ -2,7 +2,7 @@
   "publisher": "kejun",
   "name": "markdown-alert",
   "displayName": "Markdown Alert",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "packageManager": "pnpm@8.11.0",
   "description": "Adds alert blockquote support to VS Code's built-in markdown preview",
