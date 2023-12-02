@@ -5,7 +5,7 @@
   "version": "0.0.4",
   "private": true,
   "packageManager": "pnpm@8.11.0",
-  "description": "Adds alert blockquote support to VS Code's built-in markdown preview",
+  "description": "Support GitHub style alerts for VS Code Markdown preview and in notebook powered by markdown-it-github-alerts.",
   "author": "KeJun <kejun1997@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/kejunmao/vscode-markdown-alert#readme",

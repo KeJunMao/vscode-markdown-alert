@@ -1,9 +1,6 @@
-<h1 align="center">
-VS Code Markdown Alert
-</h1>
-<p align="center">
-Adds alert blockquote support to VS Code's built-in markdown preview
-</p>
+# VS Code Markdown Alert
+
+Support [GitHub style alerts](https://github.com/orgs/community/discussions/16925) for VS Code Markdown preview and in notebook powered by [markdown-it-github-alerts](https://github.com/antfu/markdown-it-github-alerts).
 
 ![preview](https://raw.githubusercontent.com/kejunmao/vscode-markdown-alert/main/docs/preview.png)
 
@@ -21,9 +18,3 @@ Adds alert blockquote support to VS Code's built-in markdown preview
 
 > [!CAUTION]
 > Negative potential consequences of an action.
-
-## Credit
-
-- [GitHub style alerts](https://github.com/orgs/community/discussions/16925)
-- [@mdit/plugin-alert](https://github.com/mdit-plugins/mdit-plugins/blob/main/packages/alert/)
-- [antfu/markdown-it-github-alerts](https://github.com/antfu/markdown-it-github-alerts)
