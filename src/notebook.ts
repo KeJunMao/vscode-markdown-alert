@@ -17,11 +17,7 @@ export async function activate(ctx: RendererContext<void>) {
   template.content.appendChild(style)
   document.head.appendChild(template)
 
-  markdownItRenderer.extendMarkdownIt((md: MarkdownIt) => {
-    return md.use(() => {
-      return md.use(MarkdownItGitHubAlerts)
-    })
-  })
+  markdownItRenderer.extendMarkdownIt((md: MarkdownIt) => md.use(MarkdownItGitHubAlerts))
 
   return markdownItRenderer
 }
