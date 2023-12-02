@@ -1,4 +1,4 @@
-:root {
+.markdown-alert {
   --color-note: #0969da;
   --color-tip: #1a7f37;
   --color-warning: #9a6700;
@@ -7,7 +7,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  .markdown-alert {
     --color-note: #2f81f7;
     --color-tip: #3fb950;
     --color-warning: #d29922;
